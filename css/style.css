@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* globals */
+
+.no-decoration-white-a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url(../assets/hero.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  position: relative;
+  height: 36px;
+  width: 980px;
+  margin: 0 auto;
+  top: 60px;
+  background: #707070;
+  background: linear-gradient(0deg, #686868, #5e5e5e 50%, #707070 50%, #8d8d8d);
+  box-shadow: #626466 0 1px 2px;
+  border-radius: 4px;
+  color: white;
+}
+
+.navbar-logos {
+  display: block;
+  width: 100%;
+  height: 36px;
+  background-image: url(../assets/navbar_text.svg);
+  background-position-x: center;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 3px; */
+}
+
+.navbar-list li {
+  flex-grow: 1;
+  list-style-type: none;
+  border-right: 1px solid rgb(84, 84, 84);
+}
+
+.navbar-list a {
+  display: block;
+  height: 30px;
+  padding: 3px 0 3px 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.search-bar {
+  width: 115px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px 13px;
+}
+
+/* .search-bar:focus-within {
+    border: 1px solid #000;
+  } */
+
+.search-bar input {
+  padding-left: 1.7rem;
+  width: 80%;
+  height: 60%;
+  border: 0;
+  box-shadow: inset 0 1px 0 0 rgb(48, 48, 48), inset 0 -1px 1px 1px rgb(128, 128, 128);
+  border-radius: 10px;
+  background-color: rgba(130, 130, 130, 0.32);
+  background-image: url(../assets/seatch-icon.PNG);
+}
+
+.position-search-bar-icon {
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 5px 3px;
+}
+
+.search-bar input:focus {
+  background-image: url(../assets/seatch-icon-focus.PNG);
+  background-color: white;
+}
+
+.store {
+  background-position-y: -30px;
+}
+.mac {
+  background-position-y: -60px;
+}
+.ipod {
+  background-position-y: -90px;
+}
+.iphone {
+  background-position-y: -120px;
+}
+.ipad {
+  background-position-y: -150px;
+}
+.itunes {
+  background-position-y: -180px;
+}
+.support {
+  background-position-y: -210px;
+}
+
+.hero-text {
+  padding: 130px 50px 0;
+  font-family: "Montserrat";
+  text-align: center;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.hero-text-title {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero-text-subtitle {
+  font-size: 30px;
+  margin-bottom: 50px;
+  line-height: 1.2em;
+}
+
+.hero-text-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.hero-text-link span:hover {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 0.5px solid white;
+}
+
+.play-icon {
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
