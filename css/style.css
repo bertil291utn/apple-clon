@@ -20,15 +20,9 @@ body {
 
 /* hero=section */
 
-.hero {
-  background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 530px;
-  display: flex;
-  flex-direction: column;
-  transform: scale(1.15);
+main {
+  height: 525px;
+  background: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
 }
 
 /* navbar */
@@ -36,7 +30,7 @@ body {
 .navbar {
   position: relative;
   height: 36px;
-  width: 980px;
+  width: 74%;
   margin: 0 auto;
   top: 60px;
   background: #707070;
