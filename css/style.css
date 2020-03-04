@@ -1,0 +1,272 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* globals */
+
+.no-decoration-white-a {
+  color: white;
+  text-decoration: none;
+}
+
+.position-search-bar-icon {
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: 5px 4px;
+}
+
+/* globals */
+
+/* hero=section */
+
+main {
+  height: 525px;
+  background: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+}
+
+/* navbar */
+
+.navbar {
+  position: relative;
+  height: 36px;
+  width: 74%;
+  margin: 0 auto;
+  top: 60px;
+  background: #707070;
+  background: linear-gradient(0deg, #686868, #5e5e5e 50%, #707070 50%, #8d8d8d);
+  box-shadow: #626466 0 1px 2px;
+  border-radius: 4px;
+  color: white;
+}
+
+.navbar-logos {
+  display: block;
+  width: 100%;
+  height: 36px;
+  background-image: url(../assets/navbar_text.svg);
+  background-position-x: center;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-list .botones {
+  flex-grow: 1;
+  list-style-type: none;
+  border-right: 1px solid rgb(84, 84, 84);
+}
+
+.navbar-list > .botones:hover {
+  background-color: #4a4a4a;
+}
+
+.navbar-list a {
+  display: block;
+  height: 30px;
+  padding: 3px 0 3px 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 36px;
+  padding: 1px 13px;
+  transition: width ease-in-out 0.3s;
+}
+
+.search-bar:focus-within {
+  width: 175px;
+}
+
+.search-bar input {
+  padding-left: 1.7rem;
+  width: 80%;
+  height: 60%;
+  border: 0;
+  box-shadow: inset 0 1px 0 0 rgb(48, 48, 48), inset 0 -1px 1px 1px rgb(128, 128, 128);
+  border-radius: 10px;
+  background-color: rgba(130, 130, 130, 0.32);
+  background-image: url(../assets/search-icon.PNG);
+}
+
+.search-bar input:focus {
+  background-image: url(../assets/search-icon-focus.PNG);
+  background-color: white;
+  outline: none;
+}
+
+.store {
+  background-position-y: -30px;
+}
+
+.mac {
+  background-position-y: -60px;
+}
+
+.ipod {
+  background-position-y: -90px;
+}
+
+.iphone {
+  background-position-y: -120px;
+}
+
+.ipad {
+  background-position-y: -150px;
+}
+
+.itunes {
+  background-position-y: -180px;
+}
+
+.support {
+  background-position-y: -210px;
+}
+
+/* navbar */
+
+.hero-text {
+  padding: 130px 50px 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.hero-text-title-img {
+  background-image: url(https://web.archive.org/web/20140226220919im_/http://images.apple.com/home/images/your_verse_title_small_2x.png);
+  display: block;
+  width: 980px;
+  height: 80px;
+  background-size: 850px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.hero-text-subtitle-img {
+  background-image: url(https://web.archive.org/web/20140226220920im_/http://images.apple.com/home/images/your_verse_subhead_small_2x.png);
+  display: block;
+  width: 980px;
+  height: 104px;
+  background-size: 850px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.play-icon {
+  background-image: url(https://web.archive.org/web/20140226220920im_/http://images.apple.com/home/images/cta_your_verse_46pt_2x.png);
+  display: block;
+  width: 980px;
+  height: 30px;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.play-icon:hover {
+  background-position-y: -30px;
+  cursor: pointer;
+}
+
+/* hero=section */
+
+/* main=images-section */
+
+.main-container {
+  width: 100%;
+  height: 200px;
+}
+
+.elements-container {
+  margin: 0 auto;
+  min-width: 1024px;
+  max-width: 1440px;
+  text-align: center;
+}
+
+.elements-container .items {
+  position: relative;
+  z-index: 1;
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  width: 25%;
+  height: 200px;
+}
+
+.items .portrait {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -182px;
+  height: 200px;
+  width: 364px;
+}
+
+.items .p1 {
+  background-image: url(https://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
+}
+
+.items .p2 {
+  background-image: url(https://web.archive.org/web/20140301004350im_/http://images.apple.com/home/images/promo_iphone5c.jpg);
+}
+
+.items .p3 {
+  background-image: url(https://web.archive.org/web/20140301004351im_/http://images.apple.com/home/images/promo_30_years.jpg);
+}
+
+.items .p4 {
+  background-image: url(https://web.archive.org/web/20140301004352im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg);
+}
+
+/* main=images-section */
+
+/* footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6e6e6e;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 10px;
+  padding: 0 0 26px;
+  margin: 0 22px;
+}
+
+.a-footer {
+  text-decoration: none;
+  color: #08c;
+}
+
+.a-footer:hover {
+  text-decoration: underline;
+}
+
+.left-side {
+  margin: 25px 50px 0;
+  line-height: 30px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.logo-language {
+  background-image: url(https://web.archive.org/web/20140301004353im_/http://images.apple.com/global/elements/flags/16x16/usa.png);
+  width: 16px;
+  height: 16px;
+}
+
+/* footer */

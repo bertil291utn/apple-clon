@@ -27,7 +27,12 @@ $RECYCLE.BIN/
 *.msp
 
 # Windows shortcuts
-*.lnk
+*.lnk 
+  
+#avoid node_modules for local sticler linter
+node_modules/*
+package-lock.json
+
 
 # End of https://www.gitignore.io/api/windows
 
