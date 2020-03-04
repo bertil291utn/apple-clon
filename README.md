@@ -13,7 +13,7 @@ In this project you’ll clone the website of one of the most design-forward com
 
 ## Live demo
 
-<a href="https://raw.githack.com/bertil291utn/apple-clon/features/index.html" target="_blank">Check it out</a>💻
+<a href="https://raw.githack.com/bertil291utn/apple-clon/master/index.html" target="_blank">Check it out</a>💻
 
 ## Getting Started
 
